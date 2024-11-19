@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Печать" Name="printButton" Click="PrintButtonClick" HorizontalAlignment="Left" Height="30" Margin="477,28,0,0" VerticalAlignment="Top" Width="133"/>
+        <TextBox Name="textBox" TextChanged="CreateFileName" HorizontalAlignment="Left" Height="32" Margin="23,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390"/>
+        <Label Name="fileName"  Content="" HorizontalAlignment="Left" Height="27" Margin="23,79,0,0" VerticalAlignment="Top" Width="390"/>
+        <DataGrid x:Name="personGrid" AutoGenerateColumns="False" HorizontalGridLinesBrush="DarkGray"
+    RowBackground="LightGray" AlternatingRowBackground="White" Margin="10,154,36,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер" Binding="{Binding Path=Id}" Width="90" />
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Path=LastName}" Width="80" />
+                <DataGridTextColumn Header="Имя" Binding="{Binding Path=Name}" Width="50" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

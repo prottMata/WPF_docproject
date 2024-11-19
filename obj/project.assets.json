@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Syncfusion.Compression.Base/27.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/27.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.Wpf/27.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.2.2",
+          "Syncfusion.Licensing": "27.2.2"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Syncfusion.Compression.Base/27.2.2": {
+      "sha512": "NIsbLnZ99USBMwMEEwzGYlCVzQ+/16KxNwJgFoEJWcwv7xwsz+AkRQh3+vu7k2Hz6NGEu6QMZ43y0peUEw2SNg==",
+      "type": "package",
+      "path": "syncfusion.compression.base/27.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net40/Syncfusion.Compression.Base.dll",
+        "lib/net40/Syncfusion.Compression.Base.xml",
+        "lib/net462/Syncfusion.Compression.Base.dll",
+        "lib/net462/Syncfusion.Compression.Base.xml",
+        "lib/net6.0-windows7.0/Syncfusion.Compression.Base.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Compression.Base.xml",
+        "lib/net8.0-windows7.0/Syncfusion.Compression.Base.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Compression.Base.xml",
+        "lib/net9.0-windows7.0/Syncfusion.Compression.Base.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Compression.Base.xml",
+        "syncfusion.compression.base.27.2.2.nupkg.sha512",
+        "syncfusion.compression.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/27.2.2": {
+      "sha512": "dhfD4qMrtzManAzH0ERFREh3cS1CPB23eReSDJBze03H6z601y1/MP/0N/rYZUMW53vdFpRPsCCfUAXq5CNS+w==",
+      "type": "package",
+      "path": "syncfusion.licensing/27.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net462/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/net9.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.27.2.2.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Pdf.Wpf/27.2.2": {
+      "sha512": "FamLkB9Mw1FlYG8H9z/Q1FvgKnRQAsBCAR3sWoJ3JE2+XyCIynKA3Eg24iMpcAU7/qsWaE/U2pVRTR84ZjcpdQ==",
+      "type": "package",
+      "path": "syncfusion.pdf.wpf/27.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Syncfusion.Pdf.Base.dll",
+        "lib/net40/Syncfusion.Pdf.Base.xml",
+        "lib/net462/Syncfusion.Pdf.Base.dll",
+        "lib/net462/Syncfusion.Pdf.Base.xml",
+        "lib/net6.0-windows7.0/Syncfusion.Pdf.Base.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Pdf.Base.xml",
+        "lib/net8.0-windows7.0/Syncfusion.Pdf.Base.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Pdf.Base.xml",
+        "lib/net9.0-windows7.0/Syncfusion.Pdf.Base.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Pdf.Base.xml",
+        "syncfusion.pdf.wpf.27.2.2.nupkg.sha512",
+        "syncfusion.pdf.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Syncfusion.Pdf.Wpf >= 27.2.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\xdjam\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\xdjam\\source\\repos\\WpfApp2\\WpfApp2.csproj",
+      "projectName": "WpfApp2",
+      "projectPath": "C:\\Users\\xdjam\\source\\repos\\WpfApp2\\WpfApp2.csproj",
+      "packagesPath": "C:\\Users\\xdjam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\xdjam\\source\\repos\\WpfApp2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\xdjam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Syncfusion.Pdf.Wpf": {
+            "target": "Package",
+            "version": "[27.2.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

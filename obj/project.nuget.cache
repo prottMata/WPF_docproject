@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "U3Pd2MIucR8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xdjam\\source\\repos\\WpfApp2\\WpfApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xdjam\\.nuget\\packages\\syncfusion.compression.base\\27.2.2\\syncfusion.compression.base.27.2.2.nupkg.sha512",
+    "C:\\Users\\xdjam\\.nuget\\packages\\syncfusion.licensing\\27.2.2\\syncfusion.licensing.27.2.2.nupkg.sha512",
+    "C:\\Users\\xdjam\\.nuget\\packages\\syncfusion.pdf.wpf\\27.2.2\\syncfusion.pdf.wpf.27.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

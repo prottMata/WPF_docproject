@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Syncfusion.Compression.Base/27.2.2": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Compression.Base.dll": {
+            "assemblyVersion": "27.2.2.0",
+            "fileVersion": "27.2.2.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/27.2.2": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "27.2.2.0",
+            "fileVersion": "27.2.2.0"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Wpf/27.2.2": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.2.2",
+          "Syncfusion.Licensing": "27.2.2"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Pdf.Base.dll": {
+            "assemblyVersion": "27.2.2.0",
+            "fileVersion": "27.2.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Syncfusion.Compression.Base/27.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NIsbLnZ99USBMwMEEwzGYlCVzQ+/16KxNwJgFoEJWcwv7xwsz+AkRQh3+vu7k2Hz6NGEu6QMZ43y0peUEw2SNg==",
+      "path": "syncfusion.compression.base/27.2.2",
+      "hashPath": "syncfusion.compression.base.27.2.2.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/27.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dhfD4qMrtzManAzH0ERFREh3cS1CPB23eReSDJBze03H6z601y1/MP/0N/rYZUMW53vdFpRPsCCfUAXq5CNS+w==",
+      "path": "syncfusion.licensing/27.2.2",
+      "hashPath": "syncfusion.licensing.27.2.2.nupkg.sha512"
+    },
+    "Syncfusion.Pdf.Wpf/27.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FamLkB9Mw1FlYG8H9z/Q1FvgKnRQAsBCAR3sWoJ3JE2+XyCIynKA3Eg24iMpcAU7/qsWaE/U2pVRTR84ZjcpdQ==",
+      "path": "syncfusion.pdf.wpf/27.2.2",
+      "hashPath": "syncfusion.pdf.wpf.27.2.2.nupkg.sha512"
+    }
+  }
+}
